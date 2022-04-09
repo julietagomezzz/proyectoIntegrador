@@ -3,7 +3,7 @@
 }
 
 .headerPadre{
-    height: 15vh;
+    height: 16vh;
     border-bottom: 2px solid #542aae;
     display: flex;
     align-items: center;
@@ -50,3 +50,20 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.h2{
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.h3{
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.imagenes{
+    width: 200px;
+    height: 200px;
+}
