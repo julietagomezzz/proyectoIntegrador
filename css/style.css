@@ -67,3 +67,21 @@
     width: 200px;
     height: 200px;
 }
+
+.articlesEnlaces{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+.articlesParrafos{
+    margin: 0px;
+}
+
+.sectionPadre{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
