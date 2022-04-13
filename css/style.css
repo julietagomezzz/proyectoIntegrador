@@ -17,15 +17,11 @@
     border-radius: 180px;
 }
 
-.hijoHeader{
-    width: 30%;
-}
-
 .navPadre{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;    
+    justify-content: space-evenly;
 }
 
 .navHijo{
