@@ -88,3 +88,27 @@
     justify-content: space-around;
     align-items: center;
 }
+
+.imagenDetalle {
+    width: 500px;
+    height: 500px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.articleDetalle {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.divAlbum {
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.articleAlbum {
+    margin: 2px;
+}
