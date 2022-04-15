@@ -108,3 +108,72 @@
 .articleAlbum {
     margin: 2px;
 }
+
+.imagenGenero{
+    width: 160px;
+    height: 120px;
+    margin-left: 20px;
+ }
+ .h4genero{
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    text-decoration: underline;
+    text-align: center;
+ }
+ .sectionGenero1{
+  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    height: 300px;
+    justify-content: space-around;
+  
+ }
+ .sectionGenero2{
+  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    height: 300px;
+    justify-content: space-around;
+  
+ }
+ .rock{
+    height: 200px;
+    width: 200px;
+    padding: 12px;
+    background-color: black;
+ }
+ .pop{
+    height: 200px;
+    width: 200px;
+    padding: 12px;
+    background-color: rgb(89, 160, 89);
+ }
+ .folklore{
+    height: 200px;
+    width: 200px;
+    padding: 12px;
+    background-color: rgb(70, 28, 28);
+ }
+ .jazz{
+    height: 200px;
+    width: 200px;
+    padding: 12px;
+    background-color: grey;
+ }
+ .cumbia{
+    height: 200px;
+    width: 200px;
+    padding: 12px;
+    background-color: rgb(241, 178, 59);
+ }
+ .reggaeton{
+    height: 200px;
+    width: 200px;
+    padding: 12px;
+    background-color: rgb(226, 136, 214);
+ }
+ 
