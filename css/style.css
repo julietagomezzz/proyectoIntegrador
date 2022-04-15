@@ -216,10 +216,15 @@
 
 .fondoGenero{
     text-align: center;
-    background-color: #3d296d;
+    background-color: rgba(89, 160, 89, 0.818);
 }
 
 .fondoGenero1{
     text-align: center;
     background-color: rgba(0, 0, 0, 0.562);
+}
+
+.h3genero{
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
 }
