@@ -183,3 +183,29 @@
     background-color: rgb(226, 136, 214);
  }
  
+ .cancionesPlaylist{
+     width: 100%;
+     height: 70px;
+ }
+
+ .playlistPadre{
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: space-around;     
+ }
+
+ .playlistHijo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around; 
+ }
+
+ .h5{
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 200px;
+ }
