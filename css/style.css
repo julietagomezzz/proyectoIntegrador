@@ -209,3 +209,17 @@
     margin-top: 20px;
     width: 200px;
  }
+
+ .sectionGenero{
+     margin: 40px;
+ }
+
+.fondoGenero{
+    text-align: center;
+    background-color: #3d296d;
+}
+
+.fondoGenero1{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.562);
+}
