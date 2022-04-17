@@ -15,6 +15,7 @@
 .logoMoodyMonkey{
     width: 120px;
     border-radius: 180px;
+    height: 18vh;
 }
 
 .navPadre{
@@ -114,56 +115,60 @@
     height: 120px;
     margin-left: 20px;
  }
+
  .h4genero{
     color: white;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     text-decoration: underline;
     text-align: center;
  }
- .sectionGenero1{
-  
+
+ .sectionGenero1{  
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     box-sizing: border-box;
     height: 300px;
     justify-content: space-around;
-  
  }
- .sectionGenero2{
-  
+
+ .sectionGenero2{  
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     box-sizing: border-box;
     height: 300px;
     justify-content: space-around;
-  
  }
+
  .rock{
     height: 200px;
     width: 200px;
     padding: 12px;
     background-color: black;
  }
+
  .pop{
     height: 200px;
     width: 200px;
     padding: 12px;
     background-color: rgb(89, 160, 89);
  }
+
  .folklore{
     height: 200px;
     width: 200px;
     padding: 12px;
     background-color: rgb(70, 28, 28);
  }
+
  .jazz{
     height: 200px;
     width: 200px;
     padding: 12px;
     background-color: grey;
  }
+
  .cumbia{
     height: 200px;
     width: 200px;
@@ -178,11 +183,55 @@
     background-color: rgb(226, 136, 214);
     
  }
+ 
+ .cancionesPlaylist{
+     width: 100%;
+     height: 70px;
+ }
 
- .imagenresultado{
+ .playlistPadre{
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: space-around;     
+ }
+
+ .playlistHijo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around; 
+ }
+
+ .h5{
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 200px;
+ }
+
+ .sectionGenero{
+     margin: 40px;
+ }
+
+.fondoGenero{
+    text-align: center;
+    background-color: rgba(89, 160, 89, 0.818);
+}
+
+.fondoGenero1{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.562);
+}
+
+.h3genero{
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+
+.imagenresultado{
     width: 110px;
     height: 120px;
     margin-left: 70px;
 }
-
- 
