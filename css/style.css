@@ -237,3 +237,268 @@
     height: 120px;
     margin-left: 70px;
 }
+
+@media(max-width:420px) {
+    
+    .bodyHome{
+        background-color:  #aa6dc2;
+    }
+    
+    .headerPadre{
+        height: 20%;
+        width: 100%;
+        border-bottom: 2px solid #7047ca;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        background-color: #7047ca;
+    }
+    
+    .logoMoodyMonkey{
+        width: 100px;
+        border-radius: 150px;
+        height: 15%;
+    }
+    
+    .navPadre{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    .navHijo{
+        text-decoration: none;
+        color: white;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: small;
+    }
+    
+    .footerPadre{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: #7047ca;
+        height: 20%;
+        width: 100%;
+        justify-content:space-evenly;
+        margin-top: 50px;
+    }
+    
+    .footerParrafos{
+        color: white;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: small;
+    }
+    
+    .h2{
+        color: white;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+    }
+    
+    .h3{
+        color: white;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    
+    .imagenes{
+        width: 190px;
+        height: 190px;
+    }
+    
+    .articlesEnlaces{
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-decoration: none;
+    }
+    
+    .articlesParrafos{
+        margin: 5px;
+    }
+    
+    .sectionPadre{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .imagenDetalle {
+        width: 300px;
+        height: 300px;
+        margin-top: 40px;
+        margin-left: 40px;
+    }
+    
+    .articleDetalle {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    
+    .iframeCelular{
+        width: 70vw;
+    }
+
+
+    .divAlbum {
+        display: inline-block;
+        margin-top: 40px;
+        margin-left: 40px;
+    }
+    
+    .articleAlbum {
+        margin: 2px;
+    }
+    
+    .imagenGenero{
+        width: 160px;
+        height: 120px;
+        margin-left: 20px;
+     }
+    
+     .h4genero{
+        color: white;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+        text-decoration: underline;
+        text-align: center;
+     }
+    
+     .sectionGenero1{  
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        height: 300px;
+        justify-content: space-around;
+        margin-bottom: 450px;
+     }
+    
+     .sectionGenero2{  
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        height: 300px;
+        justify-content: space-around;
+        margin-bottom: 450px;
+     }
+    
+     .rock{
+        height: 200px;
+        width: 200px;
+        padding: 12px;
+        background-color: black;
+        margin-bottom: 20px;
+     }
+    
+     .pop{
+        height: 200px;
+        width: 200px;
+        padding: 12px;
+        background-color: rgb(89, 160, 89);
+        margin-bottom: 20px;
+     }
+    
+     .folklore{
+        height: 200px;
+        width: 200px;
+        padding: 12px;
+        background-color: rgb(70, 28, 28);
+        margin-bottom: 20px;
+     }
+    
+     .jazz{
+        height: 200px;
+        width: 200px;
+        padding: 12px;
+        background-color: grey;
+        margin-bottom: 20px;
+     }
+    
+     .cumbia{
+        height: 200px;
+        width: 200px;
+        padding: 12px;
+        background-color: rgb(241, 178, 59);
+        margin-bottom: 20px;
+     }
+    
+     .reggaeton{
+        height: 200px;
+        width: 200px;
+        padding: 12px;
+        background-color: rgb(226, 136, 214);
+        margin-bottom: 20px;
+        
+     }
+     
+     .cancionesPlaylist{
+         width: 20vw;
+     }
+    
+     .playlistPadre{
+         display: flex;
+         flex-direction: row;
+         flex-wrap: nowrap;
+         justify-content:space-around;
+     }
+    
+     .playlistHijo{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content:left;
+     }
+    
+     .h5{
+        color: white;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-left: 10px;
+        margin-top: 5px;
+        width: 200px;
+        font-size: 12px;
+     }
+
+    .h5Celular{
+        margin-left: 18px;
+        display: flex;
+        justify-content:left;
+        margin-top: 14px;
+    }
+    
+     .sectionGenero{
+         margin: 40px;
+     }
+    
+    .fondoGenero{
+        text-align: center;
+        background-color: #7047ca;
+    }
+    
+    .fondoGenero1{
+        text-align: center;
+    }
+    
+    .h3genero{
+        color: white;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+    }
+    
+    .imagenresultado{
+        width: 110px;
+        height: 120px;
+        margin-left: 70px;
+    }
+
+}
