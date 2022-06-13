@@ -1,14 +1,14 @@
-let url = "https://api.allorigins.win/raw?url=https://api.deezer.com/chart";
-let canciones = " ";
+let section = document.querySelector('.sectionPadre');
+let proxy = 'https://api.allorigins.win/raw?url=';
+let url = 'https://api.deezer.com/chart';
 
-fetch(url)
-.then(function(response){
-  return response.json();
+fetch(proxy + url)
+.then(function (response) {
+return response.json();  
 })
-.then(function(data){
+.then(function (data) {
   console.log(data);
 })
-.catch(function(error){
+.catch(function (error) {
   console.log(error);
 })
-
