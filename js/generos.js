@@ -9,7 +9,7 @@ fetch(urlcanciones)
   .then(function (data) {
     console.log(data);
 
-    let genero = .data;
+    let genero ;
     generos = document.querySelector(".sectionGenero1");
 
 
