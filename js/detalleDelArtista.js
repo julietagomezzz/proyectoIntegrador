@@ -13,16 +13,16 @@ fetch(urlcanciones)
     detalleDelArtista = document.querySelector('.articleDetalle');
     
       detalleDelArtista.innerHTML = `<article>
-                            <img class="imagenDetalle" src="${artista[i].picture_big}" alt='' />
+                            <img class="imagenDetalle" src="${artista.picture_big}" alt='' />
                             <div class="divAlbum">
-                            <h4 class="articlesParrafos">${artista[i].name}</h4>
+                            <h4 class="articlesParrafos">${artista.name}</h4>
                             <p class="articleAlbum articlesEnlaces"> Top 5 canciones: </p>
                             <ul class="articleAlbum articlesEnlaces">
-                                <li> <a class="articlesEnlaces" href="./detalleDeLaCancion.html">${artista[i].title}</a> </li>
-                                <li> <a class="articlesEnlaces" href="./detalleDeLaCancion.html">${artista[i].title}</a> </li>
-                                <li> <a class="articlesEnlaces" href="./detalleDeLaCancion.html">${artista[i].title}</a> </li>
-                                <li> <a class="articlesEnlaces" href="./detalleDeLaCancion.html">${artista[i].title}</a> </li>
-                                <li> <a class="articlesEnlaces" href="./detalleDeLaCancion.html">${artista[i].title}</a> </li>
+                                <li> <a class="articlesEnlaces" href="./detalleDeLaCancion.html">${artista.title}</a> </li>
+                                <li> <a class="articlesEnlaces" href="./detalleDeLaCancion.html">${artista.title}</a> </li>
+                                <li> <a class="articlesEnlaces" href="./detalleDeLaCancion.html">${artista.title}</a> </li>
+                                <li> <a class="articlesEnlaces" href="./detalleDeLaCancion.html">${artista.title}</a> </li>
+                                <li> <a class="articlesEnlaces" href="./detalleDeLaCancion.html">${artista.title}</a> </li>
                             </ul>
                             </div>
                             </article>`

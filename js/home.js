@@ -19,7 +19,7 @@ fetch(urlcanciones)
       canciones.innerHTML += `<article class="articleHome">
                             <img class="imagenes" src="${song[i].artist.picture_medium}" alt='' />
                             <h4 class="articlesParrafos"><a class="articlesEnlaces" href="./detalleDelAlbum.html">${song[i].title}</a></h4>
-                            <p class="articlesParrafos"><a class="articlesEnlaces" href="./detalleDelArtista.html">${song[i].album.title}</a></p>
+                            <p class="articlesParrafos"><a class="articlesEnlaces" href="./detalleDelArtista.html">${song[i].artist.name}</a></p>
                             </article>`
     }
 
@@ -29,8 +29,8 @@ fetch(urlcanciones)
 
       canciones.innerHTML += `<article class="articleHome">
                             <img class="imagenes" src="${song[i].album.cover_medium}" alt='' />
-                            <h4 class="articlesParrafos"><a class="articlesEnlaces" href="./detalleDelAlbum.html">${song[i].title}</a></h4>
-                            <p class="articlesParrafos"><a class="articlesEnlaces" href="./detalleDelArtista.html">${song[i].album.title}</a></p>
+                            <h4 class="articlesParrafos"><a class="articlesEnlaces" href="./detalleDelAlbum.html">${song[i].album.title}</a></h4>
+                            <p class="articlesParrafos"><a class="articlesEnlaces" href="./detalleDelArtista.html">${song[i].artist.name}</a></p>
                             </article>`
 
     }
