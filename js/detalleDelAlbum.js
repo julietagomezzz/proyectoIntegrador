@@ -7,6 +7,7 @@ let id = queryStringObjLiteral.get('id');
 let urlAlbum = `https://api.allorigins.win/raw?url=https://api.deezer.com/album/${id}`
 
 let detalleDelAlbum = " ";
+console.log(id)
 
 fetch(urlAlbum)
   .then(function (response) {

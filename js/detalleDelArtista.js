@@ -39,18 +39,19 @@ fetch(urlArtistas)
     return response.json()
   })
   .then(function (data) {
-    console.log(data);
+    console.log(data.data);
 
     let cancionesArtista = data.data;
-    cancionesDelArtista = document.querySelector('.cancionesDetalle');
+    let cancionesDelArtistaHtml=document.querySelector(".cancionesArticle")
+    console.log(cancionesArtista.length)
     
-    for (let i = 0; i < cancionesArtista.lenght; i++) {
-
-      cancionesDelArtista.innerHTML =`<ul class="articleAlbum articlesEnlaces">
-                                     <li><a class="articlesEnlaces" href="./detalleDeLaCancion.html?id=${cancionesArtista[i].title}">${cancionesArtista[i].title}</a></li>
-                                     </ul>`
-  }
-
+    for (let i = 0; i < cancionesArtista.length; i++) {
+     console.log(i)
+     cancionesDelArtistaHtml.innerHTML+=`<ul class="articleAlbum articlesEnlaces">
+     <li><a class="articlesEnlaces" href="./detalleDeLaCancion.html?id=${cancionesArtista[i].id}">${cancionesArtista[i].title}</a></li>
+     </ul>`
+      
+    }
   })
   .catch(function (error) {
     console.log("Error: " + error);
