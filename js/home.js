@@ -18,8 +18,8 @@ fetch(urlcanciones)
     
       canciones.innerHTML += `<article class="articleHome">
                             <img class="imagenes" src="${song[i].artist.picture_medium}" alt='' />
-                            <h4 class="articlesParrafos"><a class="articlesEnlaces" href="./detalleDelAlbum.html?id=${song[i].title}">${song[i].title}</a></h4>
-                            <p class="articlesParrafos"><a class="articlesEnlaces" href="./detalleDelArtista.html?id=${song[i].artist.name}">${song[i].artist.name}</a></p>
+                            <h4 class="articlesParrafos"><a class="articlesEnlaces" href="./detalleDeLaCancion.html?id=${song[i].album.id}">${song[i].title}</a></h4>
+                            <p class="articlesParrafos"><a class="articlesEnlaces" href="./detalleDelArtista.html?id=${song[i].artist.id}">${song[i].artist.name}</a></p>
                             </article>`
     }
 

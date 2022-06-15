@@ -10,6 +10,7 @@ let urlCancionesDelArtista = `https://api.allorigins.win/raw?url=https://api.dee
 
 let detalleDelArtista = " ";
 let cancionesDelArtista = " ";
+let cancionesDelArtistaHtml = document.querySelector("#a")
 
 fetch(urlArtistas)
   .then(function (response) {
@@ -42,16 +43,15 @@ fetch(urlArtistas)
     console.log(data.data);
 
     let cancionesArtista = data.data;
-    let cancionesDelArtistaHtml=document.querySelector(".cancionesArticle")
+    
     console.log(cancionesArtista.length)
     
     for (let i = 0; i < cancionesArtista.length; i++) {
      console.log(i)
-     cancionesDelArtistaHtml.innerHTML+=`<ul class="articleAlbum articlesEnlaces">
-     <li><a class="articlesEnlaces" href="./detalleDeLaCancion.html?id=${cancionesArtista[i].id}">${cancionesArtista[i].title}</a></li>
-     </ul>`
+     cancionesDelArtista += `<li><a class="articlesEnlaces" href="./detalleDeLaCancion.html?id=${cancionesArtista[i].id}">${cancionesArtista[i].title}</a></li>`
       
     }
+    cancionesDelArtistaHtml.innerHTML = cancionesDelArtista;
   })
   .catch(function (error) {
     console.log("Error: " + error);
