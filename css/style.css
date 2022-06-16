@@ -173,53 +173,13 @@
     justify-content: space-around;
  }
 
- .rock{
-    height: 200px;
-    width: 200px;
-    padding: 12px;
-    background-color: black;
+ .imagenPlaylist{
+    width: 120px;
+    height: 120px;
+    margin-left: 20px;
  }
 
- .pop{
-    height: 200px;
-    width: 200px;
-    padding: 12px;
-    background-color: rgb(89, 160, 89);
- }
 
- .folklore{
-    height: 200px;
-    width: 200px;
-    padding: 12px;
-    background-color: rgb(70, 28, 28);
- }
-
- .jazz{
-    height: 200px;
-    width: 200px;
-    padding: 12px;
-    background-color: grey;
- }
-
- .cumbia{
-    height: 200px;
-    width: 200px;
-    padding: 12px;
-    background-color: rgb(241, 178, 59);
- }
-
- .reggaeton{
-    height: 200px;
-    width: 200px;
-    padding: 12px;
-    background-color: rgb(226, 136, 214);
-    
- }
- 
- .cancionesPlaylist{
-     width: 100%;
-     height: 70px;
- }
 
  .playlistPadre{
      display: flex;

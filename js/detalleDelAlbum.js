@@ -55,6 +55,7 @@ fetch(urlAlbum)
      }
      cancionesDelAlbumHtml.innerHTML = cancionesDelAlbum;
   })
+  
   .catch(function (error) {
     console.log("Error: " + error);
   })
