@@ -6,7 +6,7 @@ let id = queryStringObjLiteral.get('id');
 
 let urlAlbum = `https://api.allorigins.win/raw?url=https://api.deezer.com/album/${id}`;
 
-let urlCancionesDelAlbum = `https://api.allorigins.win/raw?url=https://api.deezer.com/artist/${id}/top?limit=9`;
+let urlCancionesDelAlbum = `https://api.allorigins.win/raw?url=https://api.deezer.com/album/${id}/tracks`;
 
 let detalleDelAlbum = " ";
 let cancionesDelAlbum = " ";
