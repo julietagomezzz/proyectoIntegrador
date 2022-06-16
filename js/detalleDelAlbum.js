@@ -21,8 +21,8 @@ fetch(urlAlbum)
   .then(function (data) {
     console.log(data);
 
-    let album = data;
-    detalleDelAlbum = document.querySelector('.articleDetalle');
+    let album = data.data;
+    detalleDelAlbum = document.querySelector('.articleDetalleDelAlbum');
 
     detalleDelAlbum.innerHTML += `<article>
                             <img class="imagenDetalle" src="${album.cover_big}" alt='' />
