@@ -23,7 +23,7 @@ fetch(urlCancion)
                                     <div class="divAlbum">
                                     <h4 class="articleAlbum articlesEnlaces h3">${canciones.title}</h4>
                                     <h5 class="articleAlbum articlesEnlaces h3">${canciones.album.title}</h5>
-                                    <p class="articleAlbum articlesEnlaces h3">${canciones.artist.name}</p>
+                                    <p class="articleAlbum articlesEnlaces"><a class="articlesEnlaces" href="./detalleDelArtista.html?id=${canciones.artist.id}">${canciones.artist.name}</a></p>
                                     <p class="articleAlbum articlesEnlaces"> Mi playlist </p>
                                     </div>
                                     </article>`
