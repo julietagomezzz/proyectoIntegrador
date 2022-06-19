@@ -24,7 +24,7 @@ fetch(urlGeneros)
     for (let i = 0; i < detalleDelGenero.length; i++) {
       console.log(i)
       detalleDelGenero +=  `<article>
-                            <img class="imagenes" src="${detalleDelGenero.cover_big}" alt="Adele">
+                            <img class="imagenes" src="${detalleDelGenero.cover_big}" alt="">
                             <h4 class="articlesParrafos fondoGenero"><a class="articlesEnlaces" href="./detalleDelArtista.html?id=${detalleDelGenero[i].id}">${detalleDelGenero[i].title}</a></h4>
                             </article>`       
      }
