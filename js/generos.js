@@ -4,7 +4,7 @@ let queryStringObjLiteral = new URLSearchParams(queryString);
 
 let id = queryStringObjLiteral.get('id');
 
-let urlGeneros = `https://api.allorigins.win/raw?url=https://api.deezer.com/genre/${id}`;
+let urlGeneros = `https://api.allorigins.win/raw?url=https://api.deezer.com/genre`;
 
 let generos = " ";
 
@@ -19,7 +19,7 @@ fetch(urlGeneros)
     generos = document.querySelector(".sectionGenero1");
 
 
-     for (let i = 0; i < 7; i++) {
+     for (let i = 1; i < 13; i++) {
     
       generos.innerHTML += `<article class="articleHome">
                             <img class="imagenes" src="${genero[i].picture_medium}" alt='fotoGeneros' />
