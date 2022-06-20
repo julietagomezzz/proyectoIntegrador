@@ -23,8 +23,8 @@ if(favoritos == null || favoritos.length == 0) {
 
             cancionesFavoritas +=  `<article>
                                     <img class="imagenPlaylist" src="${canciones.album.cover_medium}" alt='' />
-                                    <h4 class="articleAlbum articlesEnlaces h3">${canciones.title}</h4>
-                                    <h5 class="articleAlbum articlesEnlaces h3">${canciones.album.title}</h5>
+                                    <h4 class="articleAlbum articlesEnlaces h3"><a class="articlesEnlaces" href="./detalleDeLaCancion.html?id=${canciones.title.id}">${canciones.title}</a></h4>
+                                    <h5 class="articleAlbum articlesEnlaces h3"><a class="articlesEnlaces" href="./detalleDelAlbum.html?id=${canciones.album.title.id}">${canciones.album.title}</a></h5>
                                     <p class="articleAlbum articlesEnlaces"><a class="articlesEnlaces" href="./detalleDelArtista.html?id=${canciones.artist.id}">${canciones.artist.name}</a></p>
                                     </article>`
             section.innerHTML = cancionesFavoritas

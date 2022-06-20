@@ -53,11 +53,11 @@ fetch(urlCancion)
     if (favoritos.includes(id)) {
         let indice = favoritos.indexOf(id);
         favoritos.splice(indice, 1)
-        fav.innerText = "agregar a favoritos"
+        fav.innerText = "Agregar a favoritos"
 
     } else {
         favoritos.push(id);{
-            fav.innerText = "quitar de favoritos"
+            fav.innerText = "Quitar de favoritos"
         }
     }
 
