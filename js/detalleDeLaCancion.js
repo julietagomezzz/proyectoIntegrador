@@ -44,7 +44,7 @@ fetch(urlCancion)
   let fav = document.querySelector('.fav');
 
   if(favoritos.includes(id)){
-    fav.innerText = "quitar de favoritos"
+    fav.innerText = "Quitar de favoritos"
   }
 
   fav.addEventListener('click', function(e){

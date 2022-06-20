@@ -17,15 +17,17 @@ fetch(urlGeneros)
   .then(function (data) {
     console.log(data.data);
 
-    let detalleDelGenero = data.data;
+    let genero = data.data;
 
-    console.log(detalleDelGenero.length)
+    console.log(genero.length)
 
-    for (let i = 0; i < detalleDelGenero.length; i++) {
+    for (let i = 0; i < genero.length; i++) {
+
       console.log(i)
+      
       detalleDelGenero +=  `<article>
-                            <img class="imagenes" src="${detalleDelGenero.cover_big}" alt="">
-                            <h4 class="articlesParrafos fondoGenero"><a class="articlesEnlaces" href="./detalleDelArtista.html?id=${detalleDelGenero[i].id}">${detalleDelGenero[i].title}</a></h4>
+                            <img class="imagenes" src="${genero.cover_big}" alt="">
+                            <h4 class="articlesParrafos fondoGenero"><a class="articlesEnlaces" href="./detalleDelArtista.html?id=${genero[i].id}">${genero[i].title}</a></h4>
                             </article>`       
      }
 
