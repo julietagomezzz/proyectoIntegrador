@@ -34,3 +34,18 @@ if(favoritos == null || favoritos.length == 0) {
           })
     }
 }
+
+let formulario = document.querySelector('form');
+
+  formulario.addEventListener('submit',function(e){
+    e.preventDefault();
+    let inputBusqueda = document.querySelector('input');
+
+    if (inputBusqueda.value == '') {
+      alert('El campo no puede estar vacio');
+    } else if (inputBusqueda.value.length <= 3) {
+      alert('Debe contener mas de tres caracteres');
+    } else {
+      this.submit()
+    } 
+  });
